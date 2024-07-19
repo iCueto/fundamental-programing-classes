@@ -46,6 +46,9 @@ void loop(char c[3][3])
 
   } while (1 <= 9 && j == 2);
 
+  system("clear"); // Esto está en Unix/Linux, en Windows es "cls"
+  tablet(c);
+
   if (j == 0) {
     printf("Enhorabuena!! Has ganado\n\n");
   } else if (j == 1) {
